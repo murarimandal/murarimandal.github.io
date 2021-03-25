@@ -44,7 +44,36 @@
 
    <!-- Local styles -->
    <link rel="stylesheet" href="css/main.css">
+ <style>
+      /* plus glyph for showing collapsible panels */
+      .panel-heading .accordion-plus-toggle:before {
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: "\f068";
+        float: right;
+        color: RGBA(119, 136, 153, .5);
+      }
 
+      .panel-heading .accordion-plus-toggle.collapsed:before {
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: "\f067";
+        color: RGBA(119, 136, 153, .5);
+      }
+
+      /* sets the link to the width of the entire panel title */
+      .panel-title>a {
+        display: block;
+      }
+    </style>
 </head>
 
 <body>
@@ -62,6 +91,17 @@
             <!-- Publication -->
             <h1>Publications</h1>
             <h3 class="push-down-3"><span>2021</span></h3>
+            
+            <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="heading-8752665301">
+              <h5 class="panel-title">
+                <a role="button" data-toggle="collapse" class="accordion-toggle accordion-plus-toggle collapsed" data-parent="" href="#collapse-8752665301" aria-expanded="false" aria-controls="collapse-8752665301">Course 1</a>
+              </h5>
+            </div>
+            <div id="collapse-8752665301" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-8752665301">
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, accusantium doloribus! Sequi ad omnis facere illo, dignissimos vel officiis, architecto sit laborum labore, quidem cumque ipsam minima est cum eligendi.</div>
+            </div>
+          </div>
             
             <div class="row">  
                <span class="university" style="color:black;font-weight:bold">Fuzzy analysis of machine repair problem with switching failure and reboot</span> <br>
