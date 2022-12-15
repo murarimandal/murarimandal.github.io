@@ -6,7 +6,7 @@
    <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <title>Jane Smith, MS</title>
+   <title>Murari Mandal, PhD</title>
 
    <!-- Favicons -- We recommend this site for generating favicons: https://www.favicon-generator.org/ -->
    <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
@@ -44,7 +44,36 @@
 
    <!-- Local styles -->
    <link rel="stylesheet" href="css/main.css">
+ <style>
+      /* plus glyph for showing collapsible panels */
+      .panel-heading .accordion-plus-toggle:before {
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: "\f068";
+        float: right;
+        color: RGBA(119, 136, 153, .5);
+      }
 
+      .panel-heading .accordion-plus-toggle.collapsed:before {
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: "\f067";
+        color: RGBA(119, 136, 153, .5);
+      }
+
+      /* sets the link to the width of the entire panel title */
+      .panel-title>a {
+        display: block;
+      }
+    </style>
 </head>
 
 <body>
@@ -59,13 +88,39 @@
 
       <div class="row">
          <div class="col-sm-12">
+            <h1>Note for Prospective Students</h1>
+                       
+         <p>I am looking for highly motivated students who want to work in the field of machine learning, deep learning, computer vision, and multimedia analytics. Particularly, my current reserach is focus on privacy in AI, Vision + NLP problems, and healthcare data analytics.</p>
 
-           <h1>Vitae</h1>
+         <span class="university" style="color:black;font-weight:bold"> Expectation from the prospective student:</span>
+            <ul style="list-style-type:disc">
+            <li> Sound knowledge of Machine Learning (ML). You are required to complete Coursera's <a href="https://www.coursera.org/learn/machine-learning?specialization=machine-learning-introduction">Supervised Machine Learning: Regression and Classification </a> (auditing without certification is free.)</li> 
+            <li> Optional: Knowledge of Deep learning (Resources: <a href="https://www.deeplearningbook.org/lecture_slides.html">Deep Learning Book</a>, 
+               <a href="https://d2l.ai/index.html">Dive into Deep Learning</a>)</li>
+         	<li> Good programming skills [preferably in Python].</li>
+         	<li> Strong paper writing skills and willing to write a research paper with me.</li>
+         	<li> A commitment to work with me at least for 1 year on a research problem.</li>
+         </ul>
 
-            <p>Find my curriculum vitae, below. References available upon request.</p>
-
-            <p class='text-right'><a href='https://docs.google.com/document/d/1_AJVKpKeyh_NFvlKA6nOT7GbR8NuFfJjQn-5tIumWpY/edit' target='_blank'><i class='fas fa-print fa-fw' aria-hidden='true'></i>&nbsp;Print Vitae</a></p><iframe width='100%' height='900px' frameborder='0' scrolling='yes' class='embed-responsive-item'  src='https://docs.google.com/document/d/1_AJVKpKeyh_NFvlKA6nOT7GbR8NuFfJjQn-5tIumWpY/preview' allowfullscreen></iframe>
-
+      <p> <span class="university" style="color:black;font-weight:bold"> What you will be working on?</span>
+         My current research is mainly focused on privacy and security in AI. I am particularly interested in identifying the vulnerabilities in existing machine learning/deep learning systems. 
+         I am also inquisitive about the data privacy regulations and their impact on ML/DL based companies. 
+         Apart from that I am working on challenging computer vision and human computer-interaction problems. 
+         The application of my work include surveillance, data privacy, cyber security, healthcare, entertainment, and climate change.</p>
+       
+         <span class="university" style="color:black;font-weight:bold">The following are some of the main topics of my current research:</span>
+         <ul style="list-style-type:disc">
+         <li>  Privacy and Security in AI</li>
+         <li> Data Privacy in Machine Learning</li>
+         <li>  Data Valuation</li>
+         <li>  Robustness in Deep Learning</li>
+         <li>  Multimedia Privacy and Security</li>
+         <li>  Machine Learning, Computer Vision, Deep Learning</li>
+         </ul>
+ 
+        <p>I am always open to work on new ideas and problems with real world applications. </p>
+         
+       <p>If you are interested, drop me an email at <span class="university" style="color:black;font-weight:bold">murari.nus@gmail.com</span></p>
          </div>
       </div>
 
@@ -94,8 +149,9 @@
 
    <script>
       $(document).ready(function() {
-         $("li#vitae a").addClass("active");
-         $("li#vitae a").addClass("hvr-bubble-bottom");
+         $("li#talks a").addClass("active");
+         $("li#talks a").addClass("hvr-bubble-bottom");
+
       });
    </script>
 
