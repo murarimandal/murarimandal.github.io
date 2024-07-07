@@ -1,25 +1,25 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <b>Assistant Professor</b> School of Computer Engineering KiiT Bhubaneshwar, India [PostDoc, National University of Singapore]
 
 profile:
-  align: right
-  image: prof_pic.jpg
+  align: left
+  image: murarimandal.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>School of Engineering, 1st floor, Campus 14</p>
+    <p>KiiT, Bhubaneswar</p>
+    <p>Odisha, India</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am an Assistant Professor at the School of Computer Engineering, KiiT Bhubaneshwar. I lead the RespAI Lab research group where we work on the topics related to responsible AI, machine unlearning, data valuation, ethical use of large language models (LLMs) and diffusion models. Check out the website here: <a href="https://respailab.github.io" target="_blank">RespAI Lab</a>
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I was a Postdoctoral Research Fellow at National University of Singapore (NUS). I worked with <a href="https://www.comp.nus.edu.sg/~mohan/" target="_blank">Prof. Mohan Kankanhalli</a> and <a href="https://www.jussikeppo.com/" target="_blank">Prof. Jussi Keppo</a> in the <a href="https://ncript.comp.nus.edu.sg/" target="_blank">N-CRiPT Lab</a>.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My current research is in Responsible AI, Machine Unlearning, Data Valuation, Synthetic Data Generation, and Federated Learning. I earier research include video surveillance (moving object detection, anomaly detection), human emotion analysis, aerial surveillance (UAV-based visual data analytics), visual quality enhancement (haze removal, night-image enhancement, image inpainting).
