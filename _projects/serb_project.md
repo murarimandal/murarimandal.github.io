@@ -4,7 +4,7 @@ title: SERB Startup Research Grant
 description: SERB Funded Project [Jan 2024 - Present]
 img: "assets/img/serblogo.png"
 date: 2024-05-25
-category: research grants
+category: "Research Grants"
 ---
 
 ![SERB Logo](https://acceleratevigyan.gov.in/assets/images/about/serblogo_logo.png){:width="200px"}
