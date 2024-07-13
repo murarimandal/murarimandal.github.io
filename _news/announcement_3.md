@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2023-04-10
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+<a href="https://proceedings.mlr.press/v202/tarun23a/tarun23a.pdf" target="_blank">Deep Regression Unlearning</a> paper accepted in ICML 2023, Hawaii, USA
