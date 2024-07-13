@@ -29,9 +29,10 @@ Earlier, I was a Postdoctoral Research Fellow at National University of Singapor
 <hr />
 
 ## <b>Research Interests</b>
- - Regulatable AI
- - Machine Unlearning
- - Data Valuation
- - Privacy and Security in AI
- - Data Privacy and Data Synthesis
- - Explaianable AI
+
+- Regulatable AI
+- Machine Unlearning
+- Data Valuation
+- Privacy and Security in AI
+- Data Privacy and Data Synthesis
+- Explaianable AI
