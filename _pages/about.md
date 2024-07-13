@@ -2,8 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <p><b>Assistant Professor</b>, KIIT Bhubaneswar</p>
-<p><b>Post-Doc</b>, National University of Singapore (NUS)</p>
+subtitle: <p><b>Assistant Professor</b>, KIIT Bhubaneswar</p><p><b>Post-Doc</b>, National University of Singapore (NUS)</p>
 
 profile:
   align: left
