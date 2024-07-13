@@ -2,9 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <b>Assistant Professor</b> School of Computer Engineering KIIT Bhubaneswar, India
-
-[PostDoc, National University of Singapore]
+subtitle: 
 
 profile:
   align: left
