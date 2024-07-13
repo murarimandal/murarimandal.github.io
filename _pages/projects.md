@@ -2,10 +2,10 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Govt projects
+description: Funded Projects
 nav: true
 nav_order: 3
-display_categories: [research grants, others]
+display_categories: [Research Grants, others]
 horizontal: false
 ---
 
