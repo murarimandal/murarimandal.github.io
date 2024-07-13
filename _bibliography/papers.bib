@@ -4,7 +4,9 @@
 @string{aps = {American Physical Society,}}
 
 @article{tarun2023fast,
-  abbr      = {IEEE},
+  abbr      = {IEEE TNNLS},
+  conf      = {IEEE TNNLS},
+  sourcecode = {https://github.com/vikram2000b/Fast-Machine-Unlearning},
   title     = {Fast yet effective machine unlearning},
   author    = {Tarun, Ayush K and Chundawat, Vikram S and Mandal, Murari and Kankanhalli, Mohan},
   journal   = {IEEE Transactions on Neural Networks and Learning Systems},
@@ -12,11 +14,12 @@
   publisher = {IEEE},
   pdf       = {https://arxiv.org/pdf/2111.08947.pdf},
   preview   = {fast-unlearning.png},
-  selected  = {true}
 }
 
 @article{10097553,
   abbr     = {IEEE},
+  conf     = {IEEE TIFS},
+  sourcecode = {https://github.com/ayushkumartarun/zero-shot-unlearning},
   author   = {Chundawat, Vikram S. and Tarun, Ayush K. and Mandal, Murari and Kankanhalli, Mohan},
   journal  = {IEEE Transactions on Information Forensics and Security},
   title    = {Zero-Shot Machine Unlearning},
@@ -28,11 +31,13 @@
   doi      = {10.1109/TIFS.2023.3265506},
   pdf      = {https://arxiv.org/pdf/2201.05629.pdf},
   preview  = {zero-shot-unlearning.png},
-  selected = {true}
 }
 
 @inproceedings{pmlr-v202-tarun23a,
   title     = {Deep Regression Unlearning},
+  sourcecode={https://github.com/ayushkumartarun/deep-regression-unlearning},
+  conf      = {ICML-2023},
+  ranking   = {Core A*},
   author    = {Tarun, Ayush Kumar and Chundawat, Vikram Singh and Mandal, Murari and Kankanhalli, Mohan},
   booktitle = {Proceedings of the 40th International Conference on Machine Learning},
   pages     = {33921--33939},
@@ -45,13 +50,14 @@
   pdf       = {https://proceedings.mlr.press/v202/tarun23a/tarun23a.pdf},
   url       = {https://proceedings.mlr.press/v202/tarun23a.html},
   preview   = {deep-regression-unlearning.png},
-  abstract  = {With the introduction of data protection and privacy regulations, it has become crucial to remove the lineage of data on demand from a machine learning (ML) model. In the last few years, there have been notable developments in machine unlearning to remove the information of certain training data efficiently and effectively from ML models. In this work, we explore unlearning for the regression problem, particularly in deep learning models. Unlearning in classification and simple linear regression has been considerably investigated. However, unlearning in deep regression models largely remains an untouched problem till now. In this work, we introduce deep regression unlearning methods that generalize well and are robust to privacy attacks. We propose the Blindspot unlearning method which uses a novel weight optimization process. A randomly initialized model, partially exposed to the retain samples and a copy of the original model are used together to selectively imprint knowledge about the data that we wish to keep and scrub off the information of the data we wish to forget. We also propose a Gaussian fine tuning method for regression unlearning. The existing unlearning metrics for classification are not directly applicable to regression unlearning. Therefore, we adapt these metrics for the regression setting. We conduct regression unlearning experiments for computer vision, natural language processing and forecasting applications. Our methods show excellent performance for all these datasets across all the metrics. Source code: https://github.com/ayu987/deep-regression-unlearning}
+  abstract  = {With the introduction of data protection and privacy regulations, it has become crucial to remove the lineage of data on demand from a machine learning (ML) model. In the last few years, there have been notable developments in machine unlearning to remove the information of certain training data efficiently and effectively from ML models. In this work, we explore unlearning for the regression problem, particularly in deep learning models. Unlearning in classification and simple linear regression has been considerably investigated. However, unlearning in deep regression models largely remains an untouched problem till now. In this work, we introduce deep regression unlearning methods that generalize well and are robust to privacy attacks. We propose the Blindspot unlearning method which uses a novel weight optimization process. A randomly initialized model, partially exposed to the retain samples and a copy of the original model are used together to selectively imprint knowledge about the data that we wish to keep and scrub off the information of the data we wish to forget. We also propose a Gaussian fine tuning method for regression unlearning. The existing unlearning metrics for classification are not directly applicable to regression unlearning. Therefore, we adapt these metrics for the regression setting. We conduct regression unlearning experiments for computer vision, natural language processing and forecasting applications. Our methods show excellent performance for all these datasets across all the metrics. Source code: https://github.com/ayu987/deep-regression-unlearning},
+  selected = {true},
 }
 
 @misc{tarun2024ecoval,
   conf          = {KDD-2024},
   ranking       = {Core A*},
-  sourcecode   = {https://github.com},
+  sourcecode   = {https://github.com/respai-lab/ecoval},
   title         = {EcoVal: An Efficient Data Valuation Framework for Machine Learning},
   author        = {Ayush K Tarun and Vikram S Chundawat and Murari Mandal and Hong Ming Tan and Bowei Chen and Mohan Kankanhalli},
   year          = {2024},
@@ -60,14 +66,20 @@
   primaryclass  = {cs.LG},
   pdf           = {https://arxiv.org/pdf/2402.09288},
   preview       = {ecoval.png},
-  abstract      = {Quantifying the value of data within a machine learning workflow can play a pivotal role in making more strategic decisions in machine learning initiatives. The existing Shapley value based frameworks for data valuation in machine learning are computationally expensive as they require considerable amount of repeated training of the model to obtain the Shapley value. In this paper, we introduce an efficient data valuation framework EcoVal, to estimate the value of data for machine learning models in a fast and practical manner. Instead of directly working with individual data sample, we determine the value of a cluster of similar data points. This value is further propagated amongst all the member cluster points. We show that the overall data value can be determined by estimating the intrinsic and extrinsic value of each data. This is enabled by formulating the performance of a model as a \textit{production function}, a concept which is popularly used to estimate the amount of output based on factors like labor and capital in a traditional free economic market. We provide a formal proof of our valuation technique and elucidate the principles and mechanisms that enable its accelerated performance. We demonstrate the real-world applicability of our method by showcasing its effectiveness for both in-distribution and out-of-sample data. This work addresses one of the core challenges of efficient data valuation at scale in machine learning models.}
+  abstract      = {Quantifying the value of data within a machine learning workflow can play a pivotal role in making more strategic decisions in machine learning initiatives. The existing Shapley value based frameworks for data valuation in machine learning are computationally expensive as they require considerable amount of repeated training of the model to obtain the Shapley value. In this paper, we introduce an efficient data valuation framework EcoVal, to estimate the value of data for machine learning models in a fast and practical manner. Instead of directly working with individual data sample, we determine the value of a cluster of similar data points. This value is further propagated amongst all the member cluster points. We show that the overall data value can be determined by estimating the intrinsic and extrinsic value of each data. This is enabled by formulating the performance of a model as a \textit{production function}, a concept which is popularly used to estimate the amount of output based on factors like labor and capital in a traditional free economic market. We provide a formal proof of our valuation technique and elucidate the principles and mechanisms that enable its accelerated performance. We demonstrate the real-world applicability of our method by showcasing its effectiveness for both in-distribution and out-of-sample data. This work addresses one of the core challenges of efficient data valuation at scale in machine learning models.},
+  selected = {true},
 }
 
-@article{sinha2024multi,
-  title={Multi-Modal Recommendation Unlearning},
-  author={Sinha, Yash and Mandal, Murari and Kankanhalli, Mohan},
-  journal={arXiv preprint arXiv:2405.15328},
+@misc{sinha2024multimodalrecommendationunlearning,
+  title={Multi-Modal Recommendation Unlearning}, 
+  author={Yash Sinha and Murari Mandal and Mohan Kankanhalli},
   year={2024},
+  eprint={2405.15328},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  url={https://arxiv.org/abs/2405.15328},
+  pdf={https://arxiv.org/pdf/2405.15328},
+  abstract={Unlearning methods for recommender systems (RS) have emerged to address privacy issues and concerns about legal compliance. However, evolving user preferences and content licensing issues still remain unaddressed. This is particularly true in case of multi-modal recommender systems (MMRS), which aim to accommodate the growing influence of multi-modal information on user preferences. Previous unlearning methods for RS are inapplicable to MMRS due to incompatibility of multi-modal user-item behavior data graph with the matrix based representation of RS. Partitioning based methods degrade recommendation performance and incur significant overhead costs during aggregation. This paper introduces MMRecUN, a new framework for multi-modal recommendation unlearning, which, to the best of our knowledge, is the first attempt in this direction. Given the trained recommendation model and marked forget data, we devise Reverse Bayesian Personalized Ranking (BPR) objective to force the model to forget it. MMRecUN employs both reverse and forward BPR loss mechanisms to selectively attenuate the impact of interactions within the forget set while concurrently reinforcing the significance of interactions within the retain set. Our experiments demonstrate that MMRecUN outperforms baseline methods across various unlearning requests when evaluated on benchmark multi-modal recommender datasets. MMRecUN achieves recall performance improvements of up to $\mathbf{49.85%}$ compared to the baseline methods. It is up to 1.3× faster than the \textsc{Gold} model, which is trained on retain data from scratch. MMRecUN offers advantages such as superior performance in removing target elements, preservation of performance for retained elements, and zero overhead costs in comparison to previous methods.},
   preview= {multi-model unlearning.png}
 }
 
@@ -79,12 +91,16 @@
   archiveprefix = {arXiv},
   primaryclass  = {cs.LG},
   preview       = {distil.png},
+  abstract      = {Graph unlearning has emerged as a pivotal method to delete information from a pre-trained graph neural network (GNN). One may delete nodes, a class of nodes, edges, or a class of edges. An unlearning method enables the GNN model to comply with data protection regulations (i.e., the right to be forgotten), adapt to evolving data distributions, and reduce the GPU-hours carbon footprint by avoiding repetitive retraining. Existing partitioning and aggregation-based methods have limitations due to their poor handling of local graph dependencies and additional overhead costs. More recently, GNNDelete offered a model-agnostic approach that alleviates some of these issues. Our work takes a novel approach to address these challenges in graph unlearning through knowledge distillation, as it distills to delete in GNN (D2DGN). It is a model-agnostic distillation framework where the complete graph knowledge is divided and marked for retention and deletion. It performs distillation with response-based soft targets and feature-based node embedding while minimizing KL divergence. The unlearned model effectively removes the influence of deleted graph elements while preserving knowledge about the retained graph elements. D2DGN surpasses the performance of existing methods when evaluated on various real-world graph datasets by up to 43.1% (AUC) in edge and node unlearning tasks. Other notable advantages include better efficiency, better performance in removing target elements, preservation of performance for the retained elements, and zero overhead costs. Notably, our D2DGN surpasses the state-of-the-art GNNDelete in AUC by 2.4%, improves membership inference ratio by +1.3, requires 10.2×106 fewer FLOPs per forward pass and up to 3.2× faster.},
   pdf           = {https://arxiv.org/pdf/2309.16173}
 }
 
 @article{Chundawat_Tarun_Mandal_Kankanhalli_2023,
   title        = {Can Bad Teaching Induce Forgetting? Unlearning in Deep Networks Using an Incompetent Teacher},
   volume       = {37},
+  sourcecode   = {https://github.com/vikram2000b/bad-teaching-unlearning},
+  conf         = {AAAI-2023},
+  ranking      = {Core A*},
   url          = {https://ojs.aaai.org/index.php/AAAI/article/view/25879},
   doi          = {10.1609/aaai.v37i6.25879},
   abstractnote = {Machine unlearning has become an important area of research due to an increasing need for machine learning (ML) applications to comply with the emerging data privacy regulations. It facilitates the provision for removal of certain set or class of data from an already trained ML model without requiring retraining from scratch. Recently, several efforts have been put in to make unlearning to be effective and efficient. We propose a novel machine unlearning method by exploring the utility of competent and incompetent teachers in a student-teacher framework to induce forgetfulness. The knowledge from the competent and incompetent teachers is selectively transferred to the student to obtain a model that doesn’t contain any information about the forget data. We experimentally show that this method generalizes well, is fast and effective. Furthermore, we introduce the zero retrain forgetting (ZRF) metric to evaluate any unlearning method. Unlike the existing unlearning metrics, the ZRF score does not depend on the availability of the expensive retrained model. This makes it useful for analysis of the unlearned model after deployment as well. We present results of experiments conducted for random subset forgetting and class forgetting on various deep networks and across different application domains. Code is at: https://github.com/vikram2000b/bad-teaching- unlearning},
@@ -94,10 +110,14 @@
   year         = {2023},
   month        = {Jun.},
   pages        = {7210-7217},
-  preview      = {bad_teaching.png}
+  preview      = {bad_teaching.png},
+  selected = {true},
 }
 
 @article{chundawat2022universal,
+  abbr = {IEEE},
+  sourcecode={https://github.com/vikram2000b/tabsyndex},
+  conf = {IEEE-TAI},
   title={A universal metric for robust evaluation of synthetic tabular data},
   author={Chundawat, Vikram S and Tarun, Ayush K and Mandal, Murari and Lahoti, Mukund and Narang, Pratik},
   journal={IEEE Transactions on Artificial Intelligence},
