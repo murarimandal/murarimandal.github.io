@@ -33,9 +33,7 @@ _(Statutory Body Established Through an Act of Parliament: SERB Act 2008)_
 
 
 ## Project Overview
-Our project, supported by the Science and Engineering Research Board (SERB), aims to address one of the most pressing concerns in today's digital age: the selective removal of digital data footprints from deep learning models. In the rapidly evolving landscape of artificial intelligence, the ability to unlearn specific data points from a trained model is crucial. This capability is essential for complying with privacy regulations, such as the GDPR, and for ensuring that models do not perpetuate biases or inaccuracies associated with certain data.
-### Some Related Papers
-To further explore the concepts and advancements in machine unlearning, you can refer to the following related papers:
+Our project, supported by the Science and Engineering Research Board (SERB), aims to address one of the most pressing concerns in today's digital age: the selective removal of digital data footprints from deep learning models. In the rapidly evolving landscape of artificial intelligence, the ability to unlearn specific data points from a trained model is crucial. This capability is essential for complying with privacy regulations, such as the GDPR, and for ensuring that models do not perpetuate biases or inaccuracies associated with certain data. Some related papers:
 - [Unlearning: A Key to the Selective Forgetting of Data in Deep Learning Models](https://arxiv.org/pdf/2210.08196)
 - [Towards Efficient Machine Unlearning](https://arxiv.org/pdf/2201.05629)
 
