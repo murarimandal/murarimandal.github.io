@@ -2,15 +2,17 @@
 layout: about
 title: About
 permalink: /
-subtitle: <b>Assistant Professor</b> School of Computer Engineering KiiT Bhubaneshwar, India [PostDoc, National University of Singapore]
+subtitle: <b>Assistant Professor</b> School of Computer Engineering KIIT Bhubaneswar, India
+
+[PostDoc, National University of Singapore]
 
 profile:
   align: left
   image: murarimandal.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>School of Engineering, 1st floor, Campus 14</p>
-    <p>KiiT, Bhubaneswar</p>
+    <p>101-H, Campus 14, School of Computer Engineering, </p>
+    <p>KIIT Bhubaneswar</p>
     <p>Odisha, India</p>
 
 news: true # includes a list of news items
