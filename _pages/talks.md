@@ -7,6 +7,15 @@ nav: true
 nav_order: 7
 ---
 
+# 2024
+
+- **Panel Discussion on "AI: The Dual Edge of Innovation", World Salon**
+  - **Date:** 11 July 2024
+  - **LinkedIn:** [Link](https://www.linkedin.com/feed/update/urn:li:activity:7223333894241075200/)
+  - **Talk Link:** [Link](https://www.world-salon.com/insight-series-responsible-ai-use-in-the-workplace-panel-2)
+
+---
+
 # 2023
 
 - **BITS Pilani, IEEE BITS Pilani Student Chapter Research Seminar**
