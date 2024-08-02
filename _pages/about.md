@@ -34,6 +34,8 @@ Earlier, I was a Postdoctoral Research Fellow at National University of Singapor
 
 ## <b>Research Interests</b>
 
+- Large Language Models
+- Diffusion Models
 - Regulatable AI
 - Machine Unlearning
 - Data Valuation
