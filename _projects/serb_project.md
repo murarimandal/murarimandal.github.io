@@ -54,9 +54,9 @@ The primary goal of this project is to develop methodologies for effectively and
 
 ## Publications Supported by the Project
 
-- Ayush K Tarun, Vikram S Chundawat, Murari Mandal, and Hong Ming Tan, Bowei Chen, Mohan Kankanhalli, "EcoVal: An Efficient Data Valuation Framework for Machine Learning", KDD, Barcelona, 2024 [Core A*]
-- Aakash Sen Sharma, Niladri Sarkar, Vikram Chundawat, Ankur A Mali, Murari Mandal, "Unlearning or Concealment? A Critical Analysis and Evaluation Metrics for Unlearning in Diffusion Models", Under Review (AAAI-24), Paper available on [Arxiv](https://arxiv.org/pdf/2409.05668)
-- Romit Chatterjee, Vikram Chundawat, Ayush Tarun, Ankur Mali, Murari Mandal, "A Unified Framework for Continual Learning and Machine Unlearning", Under Review (AAAI-24), Paper available on [Arxiv](https://arxiv.org/pdf/2408.11374v1)
+- Ayush K Tarun, Vikram S Chundawat, **Murari Mandal**, and Hong Ming Tan, Bowei Chen, Mohan Kankanhalli, "EcoVal: An Efficient Data Valuation Framework for Machine Learning", KDD, Barcelona, 2024 [Core A*]
+- Aakash Sen Sharma, Niladri Sarkar, Vikram Chundawat, Ankur A Mali, **Murari Mandal**, "Unlearning or Concealment? A Critical Analysis and Evaluation Metrics for Unlearning in Diffusion Models", Under Review (AAAI-24), Paper available on [Arxiv](https://arxiv.org/pdf/2409.05668)
+- Romit Chatterjee, Vikram Chundawat, Ayush Tarun, Ankur Mali, **Murari Mandal**, "A Unified Framework for Continual Learning and Machine Unlearning", Under Review (AAAI-24), Paper available on [Arxiv](https://arxiv.org/pdf/2408.11374v1)
 
 ---
 
