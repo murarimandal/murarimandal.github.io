@@ -18,9 +18,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am an Assistant Professor at the School of Computer Engineering, KIIT Bhubaneshwar. I lead the RespAI Lab where we work on the topics related to responsible AI, machine unlearning, data valuation, ethical use of large language models (LLMs) and diffusion models. My research work has been published in ICML, KDD, AAAI, ACM MM, CVPR. Check out my research group's website here: <a href="https://respailab.github.io" target="_blank">RespAI Lab</a>. I regularly serve as a Reviewer to NeurIPS, ICML, ICLR, AAAI, CVPR, ICCV, and ECCV. Indexed in <a href="https://csrankings.org/#/index?all&in" target="_blank">CSRankings</a>.
+I am an Assistant Professor at the School of Computer Engineering, KIIT Bhubaneshwar. I lead the RespAI Lab where we work on the topics related to responsible AI, machine unlearning, data valuation, ethical use of large language models (LLMs) and diffusion models. My research work has been published in ICML, KDD, AAAI, ACM MM, CVPR. Check out my research group's website here: <a href="https://respailab.github.io" target="_blank">RespAI Lab</a>. I regularly serve as a Reviewer to NeurIPS, ICML, ICLR, AAAI, CVPR, ICCV, and ECCV. Indexed in <a href="https://csrankings.org/#/index?all&in" target="_blank">CSRankings</a>. Research Impact: My work on Machine Unlearning has been cited by reseach at <a href="https://arxiv.org/abs/2410.03833" target="_blank">Anthropic</a>, <a href="https://arxiv.org/abs/2311.15268" target="_blank">Yoshua Bengio,Hugo Larochelle</a>.
 
-Earlier, I was a Postdoctoral Research Fellow at National University of Singapore (NUS). I worked with <a href="https://www.comp.nus.edu.sg/~mohan/" target="_blank">Prof. Mohan Kankanhalli</a> and <a href="https://www.jussikeppo.com/" target="_blank">Prof. Jussi Keppo</a> in the School of Computing. Long time back, I graduated in 2011 with a Bachelors in Computer Science from BITS, Pilani.
+. 
+
+Earlier, I was a Postdoctoral Research Fellow at National University of Singapore (NUS). I worked with <a href="https://www.comp.nus.edu.sg/~mohan/" target="_blank">Prof. Mohan Kankanhalli</a> in the School of Computing. Long time back, I graduated in 2011 with a Bachelors in Computer Science from BITS, Pilani.
+
 
 <br />
 
