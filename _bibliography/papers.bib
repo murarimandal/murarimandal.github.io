@@ -3,6 +3,29 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{Chundawat2024ConDaFF,
+  title={ConDa: Fast Federated Unlearning with Contribution Dampening},
+  author={Vikram S Chundawat and Pushkar Niroula and Prasanna Dhungana and Stefan Schoepf and Murari Mandal and Alexandra Brintrup},
+  journal={ArXiv},
+  year={2024},
+  volume={abs/2410.04144},
+  url={https://api.semanticscholar.org/CorpusID:273186546},
+  abstract={Federated learning (FL) has enabled collaborative model training across decentralized data sources or clients. While adding new participants to a shared model does not pose great technical hurdles, the removal of a participant and their related information contained in the shared model remains a challenge. To address this problem, federated unlearning has emerged as a critical research direction, seeking to remove information from globally trained models without harming the model performance on the remaining data. Most modern federated unlearning methods use costly approaches such as the use of remaining clients data to retrain the global model or methods that would require heavy computation on client or server side. We introduce Contribution Dampening (ConDa), a framework that performs efficient unlearning by tracking down the parameters which affect the global model for each client and performs synaptic dampening on the parameters of the global model that have privacy infringing contributions from the forgetting client. Our technique does not require clients data or any kind of retraining and it does not put any computational overhead on either the client or server side. We perform experiments on multiple datasets and demonstrate that ConDa is effective to forget a client's data. In experiments conducted on the MNIST, CIFAR10, and CIFAR100 datasets, ConDa proves to be the fastest federated unlearning method, outperforming the nearest state of the art approach by at least 100x. Our emphasis is on the non-IID Federated Learning setting, which presents the greatest challenge for unlearning. Additionally, we validate ConDa's robustness through backdoor and membership inference attacks. We envision this work as a crucial component for FL in adhering to legal and ethical requirements.},
+  preview={conda.png},
+}
+
+
+@inproceedings{Sinha2024UnStarUW,
+  title={UnStar: Unlearning with Self-Taught Anti-Sample Reasoning for LLMs},
+  author={Yash Sinha and Murari Mandal and Mohan S. Kankanhalli},
+  year={2024},
+  url={https://api.semanticscholar.org/CorpusID:273507947},
+  abstract={The key components of machine learning are data samples for training, model for learning patterns, and loss function for optimizing accuracy. Analogously, unlearning can potentially be achieved through anti-data samples (or anti-samples), unlearning method, and reversed loss function. While prior research has explored unlearning methods and reversed loss functions, the potential of anti-samples remains largely untapped. In this paper, we introduce UnSTAR: Unlearning with Self-Taught Anti-Sample Reasoning for large language models (LLMs). Our contributions are threefold; first, we propose a novel concept of anti-sample-induced unlearning; second, we generate anti-samples by leveraging misleading rationales, which help reverse learned associations and accelerate the unlearning process; and third, we enable fine-grained targeted unlearning, allowing for the selective removal of specific associations without impacting related knowledge - something not achievable by previous works. Results demonstrate that anti-samples offer an efficient, targeted unlearning strategy for LLMs, opening new avenues for privacy-preserving machine learning and model modification.},
+  preview={unstar.png}
+}
+
+
+
 @article{tarun2023fast,
   abbr      = {IEEE TNNLS},
   conf      = {IEEE TNNLS},
