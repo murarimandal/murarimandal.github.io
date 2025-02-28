@@ -15,6 +15,26 @@
   pdf={https://arxiv.org/pdf/2410.04144},
 }
 
+@article{sanyal2025alu,
+  title={ALU: Agentic LLM Unlearning},
+  author={Sanyal, Debdeep and Mandal, Murari},
+  journal={arXiv preprint arXiv:2502.00406},
+  year={2025},
+  abstract={Information removal or suppression in large language models (LLMs) is a desired functionality, useful in AI regulation, legal compliance, safety, and privacy. LLM unlearning methods aim to remove information on demand from LLMs. Current LLM unlearning methods struggle to balance the unlearning efficacy and utility due to the competing nature of these objectives. Keeping the unlearning process computationally feasible without assuming access to the model weights is an overlooked area. We present the first agentic LLM unlearning (\texttt{ALU}) method, a multi-agent, retrain-free, model-agnostic approach to LLM unlearning that achieves effective unlearning while preserving the utility. Our \texttt{ALU} framework unlearns by involving multiple LLM agents, each designed for a specific step in the unlearning process, without the need to update model weights for any of the agents in the framework. Users can easily request any set of unlearning instances in any sequence, and \texttt{ALU} seamlessly adapts in real time. This is facilitated without requiring any changes in the underlying LLM model. Through extensive experiments on established benchmarks (TOFU, WMDP, WPU) and jailbreaking techniques (many shot, target masking, other languages), we demonstrate that \texttt{ALU} consistently stands out as the most robust LLM unlearning framework among current state-of-the-art methods while incurring a low constant-time cost. We further highlight \texttt{ALU}'s superior performance compared to existing methods when evaluated at scale. Specifically, \texttt{ALU} is assessed on up to 1000 unlearning targets, exceeding the evaluation scope of all previously proposed LLM unlearning methods.},
+  preview={alu.png},
+  pdf={https://arxiv.org/pdf/2502.00406},
+}
+
+
+@article{kirtani2025revieweval,
+  title={ReviewEval: An Evaluation Framework for AI-Generated Reviews},
+  author={Kirtani, Chavvi and Garg, Madhav Krishan and Prasad, Tejash and Singhal, Tanmay and Mandal, Murari and Kumar, Dhruv},
+  journal={arXiv preprint arXiv:2502.11736},
+  year={2025},
+  abstract={The escalating volume of academic research, coupled with a shortage of qualified reviewers, necessitates innovative approaches to peer review. While large language model (LLMs) offer potential for automating this process, their current limitations include superficial critiques, hallucinations, and a lack of actionable insights. This research addresses these challenges by introducing a comprehensive evaluation framework for AI-generated reviews, that measures alignment with human evaluations, verifies factual accuracy, assesses analytical depth, and identifies actionable insights. We also propose a novel alignment mechanism that tailors LLM-generated reviews to the unique evaluation priorities of individual conferences and journals. To enhance the quality of these reviews, we introduce a self-refinement loop that iteratively optimizes the LLM's review prompts. Our framework establishes standardized metrics for evaluating AI-based review systems, thereby bolstering the reliability of AI-generated reviews in academic research.},
+  preview={revieweval.png},
+  pdf={https://arxiv.org/pdf/2502.11736},
+}
 
 @inproceedings{Sinha2024UnStarUW,
   title={UnStar: Unlearning with Self-Taught Anti-Sample Reasoning for LLMs},
