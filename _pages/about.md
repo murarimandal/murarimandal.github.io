@@ -36,11 +36,15 @@ Earlier, I was a Postdoctoral Research Fellow at National University of Singapor
 
 <hr />
 
-## <b>Research Interests</b>
+## <b>Ongoing Research at RespAI Lab</b>
+- Addressing Challenges in Long-Content Processing for LLMs: Investigating solutions to performance bottlenecks, memory limitations, latency issues, and information loss when dealing with extended content lengths in large language models (LLMs).
+  
+- Optimizing LLM Inference Efficiency: Developing strategies to reduce the computational cost of LLM inference, focusing on improving speed, memory usage, and leveraging smaller models for complex tasks.
 
-- Reasoning
-- LLMs
-- Diffusion Models
-- Machine Unlearning
-- AI Safety
-- Data Valuation
+- Interpretability and Alignment of Generative AI Models: Exploring the interpretability of generative AI models, aligning their outputs with human values, and addressing the issue of hallucinations in model responses.
+
+- Synthetic Persona and Society Creation: Creating and studying synthetic personalities, communities, and societies within LLMs, and analyzing the behaviors and dynamics of these synthetic constructs.
+
+- Regulatory Challenges in LLMs: Investigating regulatory concerns surrounding LLMs, including the implementation of unlearning techniques to comply with data privacy regulations and enhance model fairness.
+
+- Model Merging and Knowledge Verification: Developing methods for merging multiple models, editing model behavior, and verifying the accuracy and consistency of the knowledge they generate.
