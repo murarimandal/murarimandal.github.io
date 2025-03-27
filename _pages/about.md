@@ -29,14 +29,14 @@ Earlier, I was a Postdoctoral Research Fellow at National University of Singapor
 <hr />
 
 ## <b>Current Research</b>
-- <p><em>Addressing Challenges in Long-Content Processing for LLMs</em></p>: Investigating solutions to performance bottlenecks, memory limitations, latency issues, and information loss when dealing with extended content lengths in large language models (LLMs).
+- <b>Addressing Challenges in Long-Content Processing for LLMs</b>: Investigating solutions to performance bottlenecks, memory limitations, latency issues, and information loss when dealing with extended content lengths in large language models (LLMs).
   
-- <p><em>Optimizing LLM Inference Efficiency</em></p>: Developing strategies to reduce the computational cost of LLM inference, focusing on improving speed, memory usage, and leveraging smaller models for complex tasks.
+- <b>Optimizing LLM Inference Efficiency</b>: Developing strategies to reduce the computational cost of LLM inference, focusing on improving speed, memory usage, and leveraging smaller models for complex tasks.
 
-- <p><em>Interpretability and Alignment of Generative AI Models</em></p>: Exploring the interpretability of generative AI models, aligning their outputs with human values, and addressing the issue of hallucinations in model responses.
+- <b>Interpretability and Alignment of Generative AI Models</b>: Exploring the interpretability of generative AI models, aligning their outputs with human values, and addressing the issue of hallucinations in model responses.
 
-- <p><em>Synthetic Persona and Society Creation</em></p>: Creating and studying synthetic personalities, communities, and societies within LLMs, and analyzing the behaviors and dynamics of these synthetic constructs.
+- <b>Synthetic Persona and Society Creation</b>: Creating and studying synthetic personalities, communities, and societies within LLMs, and analyzing the behaviors and dynamics of these synthetic constructs.
 
-- <p><em>Regulatory Challenges in LLMs</em></p>: Investigating regulatory concerns surrounding LLMs, including the implementation of unlearning techniques to comply with data privacy regulations and enhance model fairness.
+- <p><em>Regulatory Challenges in LLMs</b>: Investigating regulatory concerns surrounding LLMs, including the implementation of unlearning techniques to comply with data privacy regulations and enhance model fairness.
 
-- <p><em>Model Merging and Knowledge Verification</em></p>: Developing methods for merging multiple models, editing model behavior, and verifying the accuracy and consistency of the knowledge they generate.
+- <p><em>Model Merging and Knowledge Verification</b>: Developing methods for merging multiple models, editing model behavior, and verifying the accuracy and consistency of the knowledge they generate.
