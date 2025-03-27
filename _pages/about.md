@@ -26,14 +26,6 @@ Earlier, I was a Postdoctoral Research Fellow at National University of Singapor
 
 <p><em>"When you go to hunt, hunt for rhino. If you fail, people will say anyway it was very difficult. If you succeed, you get all the glory"</em></p>
 
-<br />
-
-<br />
-
-<br />
-
-<br />
-
 <hr />
 
 ## <b>Current Research</b>
