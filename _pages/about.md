@@ -37,6 +37,6 @@ Earlier, I was a Postdoctoral Research Fellow at National University of Singapor
 
 - <b>Synthetic Persona and Society Creation</b>: Creating and studying synthetic personalities, communities, and societies within LLMs, and analyzing the behaviors and dynamics of these synthetic constructs.
 
-- <p><em>Regulatory Challenges in LLMs</b>: Investigating regulatory concerns surrounding LLMs, including the implementation of unlearning techniques to comply with data privacy regulations and enhance model fairness.
+- <b>Regulatory Challenges in LLMs</b>: Investigating regulatory concerns surrounding LLMs, including the implementation of unlearning techniques to comply with data privacy regulations and enhance model fairness.
 
-- <p><em>Model Merging and Knowledge Verification</b>: Developing methods for merging multiple models, editing model behavior, and verifying the accuracy and consistency of the knowledge they generate.
+- <b>Model Merging and Knowledge Verification</b>: Developing methods for merging multiple models, editing model behavior, and verifying the accuracy and consistency of the knowledge they generate.
