@@ -36,7 +36,7 @@ Earlier, I was a Postdoctoral Research Fellow at National University of Singapor
 
 <hr />
 
-## <b>Ongoing Research at RespAI Lab</b>
+## <b>Current Research</b>
 - Addressing Challenges in Long-Content Processing for LLMs: Investigating solutions to performance bottlenecks, memory limitations, latency issues, and information loss when dealing with extended content lengths in large language models (LLMs).
   
 - Optimizing LLM Inference Efficiency: Developing strategies to reduce the computational cost of LLM inference, focusing on improving speed, memory usage, and leveraging smaller models for complex tasks.
