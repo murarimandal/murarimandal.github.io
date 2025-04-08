@@ -29,6 +29,8 @@ Earlier, I was a Postdoctoral Research Fellow at National University of Singapor
 <hr />
 
 ## <b>Current Research</b>
+- <b>Advanced Reasoning in LLMs:</b> Exploring techniques to enhance complex reasoning abilities in LLMs, focusing on multi-step problem solving, logical inference, and contextual understanding to improve decision-making and generate more reliable outcomes.
+  
 - <b>Addressing Challenges in Long-Content Processing for LLMs</b>: Investigating solutions to performance bottlenecks, memory limitations, latency issues, and information loss when dealing with extended content lengths in large language models (LLMs).
   
 - <b>Optimizing LLM Inference Efficiency</b>: Developing strategies to reduce the computational cost of LLM inference, focusing on improving speed, memory usage, and leveraging smaller models for complex tasks.
