@@ -24,7 +24,7 @@ I am an Asst. Professor at the School of Computer Engineering, KIIT Bhubaneshwar
 
 Earlier, I was a Postdoctoral Research Fellow at National University of Singapore (NUS). I worked with <a href="https://www.comp.nus.edu.sg/~mohan/" target="_blank">Prof. Mohan Kankanhalli</a> in the School of Computing. Long time back, I graduated in 2011 with a Bachelors in Computer Science from BITS, Pilani. Find me on X @murari_ai.
 
-<a href="https://drive.google.com/file/d/1PUTaXFezfWkEpf0mall2CN6iDQuY_zqT/view?usp=drive_link" target="_blank">Note</a> for prospective student.
+<a href="https://drive.google.com/file/d/1PUTaXFezfWkEpf0mall2CN6iDQuY_zqT/view?usp=drive_link" target="_blank">Note</a> for prospective students interested in joining my research group. 
 
 <p><em>"When you go to hunt, hunt for rhino. If you fail, people will say anyway it was very difficult. If you succeed, you get all the glory"</em></p>
 
