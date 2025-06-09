@@ -29,14 +29,3 @@ Earlier, I was a Postdoctoral Research Fellow at National University of Singapor
 <a href="https://drive.google.com/file/d/1PUTaXFezfWkEpf0mall2CN6iDQuY_zqT/view?usp=drive_link" target="_blank">Note</a> for prospective students interested in joining my research group.
 
 <hr />
-
-## <b>Current Research</b>
-- <b>Advanced Reasoning in LLMs:</b> Exploring techniques to enhance complex reasoning abilities in LLMs, focusing on multi-step problem solving, logical inference, and contextual understanding to improve decision-making and generate more reliable outcomes.
-
-- <b>Interpretability and Alignment of Generative AI Models</b>: Exploring the interpretability of LLMs, aligning their outputs with human values, addressing the issue of hallucinations, RL based alignments.
-
-- <b>Synthetic Persona and Society Creation</b>: Creating and studying synthetic personalities, communities, and societies within LLMs, and analyzing the behaviors and dynamics of these synthetic constructs.
-
-- <b>Regulatory Challenges in LLMs</b>: Investigating regulatory concerns surrounding LLMs, copyright protection in LLMs, unlearning in LLMs.
-
-- <b>Model Merging and Knowledge Verification</b>: Developing methods for merging multiple models, editing model behavior, and verifying the accuracy and consistency of the knowledge they generate.
