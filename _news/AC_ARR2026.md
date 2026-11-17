@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Serving as Area Chair in ARR (NAACL) October 2026 Cycle.
+Serving as Area Chair in ARR (NAACL) October 2026 Cycle
